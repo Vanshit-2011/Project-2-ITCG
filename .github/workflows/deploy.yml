@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1
-  ECR_REPOSITORY: node-docker-ecr-demo
+  ECR_REPOSITORY: ecr-demo-repository
 
 jobs:
   build-and-deploy:
@@ -115,4 +115,5 @@ jobs:
             echo "================================"
             echo "Deployment successful"
             echo "================================"
+
 
