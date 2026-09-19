@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1
-  ECR_REPOSITORY: ecr-demo-repository
+  ECR_REPOSITORY: itcg-project-2
 
 jobs:
   build-and-deploy:
